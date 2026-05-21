@@ -40,6 +40,8 @@ class Mother:
 class Child(Father,Mother):
     pass
 c=Child()
-c.talent()
-c.skills()
+c.talent()#cooking
+c.skills()#Driving
+
+
 
