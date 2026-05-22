@@ -18,4 +18,4 @@ class Car(Vehicle):
     def display_speed(self):
         print(self._speed)
 c=Car()
-c.display_speed()
+c.display_speed()#160
