@@ -95,7 +95,7 @@ class ATM:
         return self.__balance
 a=ATM(5000)
 a.deposit(10000)
-print(a.check_balance()
+print(a.check_balance())
 
 #
 class Employee:
