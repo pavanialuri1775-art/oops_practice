@@ -1,5 +1,5 @@
 #
-'''class Student:
+class Student:
     def display(self,name,marks):
         self.name=name
         self.marks=marks
@@ -75,7 +75,7 @@ class Student:
         else:
             print("fail")
 s=Student("pavani",35)
-s.grade()#fail'''
+s.grade()#fail
 
 #
 class ATM:
@@ -95,6 +95,34 @@ class ATM:
         return self.__balance
 a=ATM(5000)
 a.deposit(10000)
+print(a.check_balance()
 
+#
+class Employee:
+    def work(self):
+        pass
+class Developer(Employee):
+    def work(self):
+        print("develops")
+class Manager(Employee):
+    def work(self):
+        print("Manages")
+d=Developer()
+d.work()
+
+#
+from abc import ABC,abstractmethod
+class Shape(ABC):
+    @abstractmethod
+    def Area(self):
+        pass
+class Circle(Shape):
+    def Area(self,radius):
+        return 3.14*self.radius*self.radius
+class Rectangle(Shape):
+    def Area(self):
+        print("rectangle has some area")
+r=Rectangle()
+r.area()
 
     
