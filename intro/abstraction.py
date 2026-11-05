@@ -1,6 +1,6 @@
 # Abstraction:Abstraction is the process of hiding implementation details and showing only essential functionality.
 #Implemented using:
-#Abstract classes
+# Abstract classes
 #Abstract methods
 from abc import ABC,abstractmethod
 class Shape:
